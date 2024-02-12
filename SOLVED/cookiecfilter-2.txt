@@ -1,0 +1,10 @@
+#soluzione: http://cookie.challs.olicyber.it/
+#vai sul sito http://cookie.challs.olicyber.it/
+#apri la console
+# esegui  il seguente codice javascript in console
+#counter=10
+#premi il biscotto
+#in console scrivi 
+#document.cookie
+#premi invio
+#la flag è tutta senza il carattere=

@@ -1,0 +1,13 @@
+in due terminali lanciare:
+1) nc rabbit.challs.olicyber.it 10501
+2) python3 proof.py valore della sfida trovato dal terminale 1
+3) inserire il valore ottenuto da python nel terminale con netcat
+4) CAMBIARE IL TIMEOUT: /usr/bin/timeout 12000s /usr/bin/bash
+5) cat entrypoint.sh -> LA SECONDA PARTE DELLA FLAG SI TROVA NEI COMMENTI
+6) lsblk -> un punto di mount è il file /var/log/flg
+7) cat /var/log/flg->LA TERZA PARTE DELLA FLAG
+8) echo $FLAG->LA TERZA PARTE DELLA FLAG
+
+
+
+flag{l1nux_15_4_c0mpl3x_And_4m4Z1ng_cr34Tur3}

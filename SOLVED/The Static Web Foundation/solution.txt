@@ -1,0 +1,14 @@
+Il sito web è puramente statico (solo html e css) e non ci sono script in javascript al suo interno.
+Ananlizzando l'intestazione del pacchetto http con curl tuttavia si vede una informazione molto sospetta:
+
+emanuele@MacBook-Pro-2 The Static Web Foundation % curl -I http://staticwebfoundation.challs.olicyber.it/
+HTTP/1.1 200 OK
+Content-Length: 3659
+Content-Type: text/html; charset=utf-8
+Date: Fri, 09 Feb 2024 22:55:57 GMT
+Refresh: 86400; url=/o1SfuSXpptIk1p8U0qISobkrYwXSILflr6ZxTsmF?p=banana
+Server: gunicorn 
+
+Viene data una informazione su di un url di una pagina web interna al sito con un parametro
+Aprendo il link http://staticwebfoundation.challs.olicyber.it/o1SfuSXpptIk1p8U0qISobkrYwXSILflr6ZxTsmF?p=banana  si ottiene la flag:
+ptm{l00k_at_Th3_he4d3rs!}

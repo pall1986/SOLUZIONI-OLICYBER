@@ -1,0 +1,10 @@
+L'applicazione è quasi tutta implementata in javascript lato utente.
+Giocando con la console, è possibile gestire sia i punteggi dei giocatori che le dimensioni delle barre.
+Esempio di javascript da dare in console durante il gioco (farte presto, meglio avere la console già attiva quando giocate):
+player2score = -1000;
+PADDLE_HEIGHT2 = (100/600)*screenH/50;
+
+A 5 punti visualizzerete la flag:
+ptm{1_l1k3d_w0nd3rw4ll}
+
+

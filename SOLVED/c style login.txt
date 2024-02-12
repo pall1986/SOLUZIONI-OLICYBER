@@ -1,0 +1,7 @@
+c style login
+Si tratta di eseguire un semplice strcmp tra la nostra richiesta GET e la variabile $secret_token. == è un confronto non sicuro (confronto sciolto noto come operatore Equal) se le due stringhe sono uguali tra loro, restituisce true, questo non controlla i tipi di dati. Se inviamo un array vuoto token[]=qualcosa, PHP traduce le variabili GET come questa in un array vuoto che fa sì che strcmp() barf: strcmp(array(), "token") -> NULL che restituirà 0
+
+cmd:  curl -d 'password[]=%22%22'  http://clogin.challs.olicyber.it/
+
+flag{strcmp_1s_n0t_s0_s4f3}
+

