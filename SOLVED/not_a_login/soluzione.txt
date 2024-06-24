@@ -1,0 +1,7 @@
+#Soluzione not a login
+#sito: http://notalogin.challs.olicyber.it
+#compare una pagina di autenticazione
+#ispezionando gli elementi ricevuti, si nota un  javascript di autenticazione lato client (assurdo)
+#nello script lato client, si chiede l'accesso ad una pagina php e il confronto viene fatto tra l'input inserito dall'utente in base64 e la username e password contenuti in quella pagina web
+#A questo punto si rende necessario decodificare da base64 username e password e inserisci i valori ottenuti nel login ottenendo la flag
+#flag{aut3nticazione_l4t0_cl1ent??}

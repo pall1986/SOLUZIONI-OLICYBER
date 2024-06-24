@@ -1,0 +1,6 @@
+#avvia gdb con il file ./van_halen
+break main
+run
+set $rip=0x0000555555555149
+step
+#Flag flag{g0_4h3ad_4nd_jump}

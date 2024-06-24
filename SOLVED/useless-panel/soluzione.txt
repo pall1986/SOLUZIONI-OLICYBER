@@ -1,0 +1,12 @@
+#Soluzione useless-panel
+#http://useless-panel.challs.olicyber.it
+effettuare la registrazione
+autenticarsi
+accedere al cookie e modicare il campo da false a true
+aggiornare la pagina
+premere Admin e compare la flag:
+flag{never_trust_user_provided_cookies}
+
+
+
+
